@@ -65,7 +65,7 @@ plotTSfleckEz <- function(time, var, zeroes, fleck_data = FALSE, timeSplit = 10)
       points(baseline1~baselineTime1, data = fleck_data, type = "p", pch = 20, col = "chartreuse3")
       points(baseline2~baselineTime2, data = fleck_data, type = "p", pch = 20, col = "chartreuse3")
       points(peak~peakTime, data = fleck_data, type = "p", pch = 20, col = "coral2")
-      text(x = fleck_data$peakTime, y = fleck_data$peak, labels = fleck_data$no, pos = 1, font = 2, col = "coral2", cex = 0.8)
+      text(x = fleck_data$peakTime, y = fleck_data$peak, labels = fleck_data$no, pos = 3, font = 2, col = "coral2", cex = 0.8)
     }
     axis(side = 1, labels = TRUE)
     axis(side = 2, las = 2, font = 2, cex.axis = 0.8)
